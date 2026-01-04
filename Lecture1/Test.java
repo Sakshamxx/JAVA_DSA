@@ -1,10 +1,12 @@
 package Lecture1;
 
-public class Test {
-    public static void main(String[] args) {
-        System.out.println("Welcome to");
-        System.out.print("Coding ");
-        System.out.println("Blocks");
-        System.out.print("Bye Bye");
+public class test {
+    public static void main(String[] args){
+        System.out.println("Hello World");
+        System.out.println("Back to coding");
+        System.out.print("Heyyyy");
+        System.out.println("Byyeee");
+        System.out.print("yooo");
+
     }
 }
