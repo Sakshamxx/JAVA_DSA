@@ -9,18 +9,18 @@ public class pattern25 {
         int star = 1;
         int space = n - 1;
         int row = 1;
-        int temp = 1;
+        int val = 1;
         while (row <= n) {
             int i = 1;
             while (i <= space) {
-                System.out.print("  ");
+                System.out.print(" \t");
                 i++;
             }
             int j = 1;
             while (j <= star) {
-                System.out.print(temp + " ");
+                System.out.print(val + " \t");
                 j++;
-                temp++;
+                val++;
             }
 
             row++;
