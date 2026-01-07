@@ -22,7 +22,7 @@ public class incrementDecrement {
         // System.out.println(--b); // Pre Decrement
         // System.out.println(b);
 
-        int x=a++ + --a - ++a + 11 + a++ - a-- + ++a ;
+        int x = a++ + --a - ++a + 11 + a++ - a-- + ++a;
         System.out.println(x);
     }
 }
