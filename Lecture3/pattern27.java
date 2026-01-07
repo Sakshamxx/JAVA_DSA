@@ -15,13 +15,13 @@ public class pattern27 {
                 System.out.print("  ");
                 i++;
             }
-            int val=1;
+            int val = 1;
             int j = 1;
             while (j <= star) {
-                System.out.print(val+" ");
-                if (j<=star/2){
+                System.out.print(val + " ");
+                if (j <= star / 2) {
                     val++;
-                }else{
+                } else {
                     val--;
                 }
                 j++;
