@@ -1,4 +1,4 @@
-package Lecture1;
+package Lecture01;
 
 public class incrementDecrement {
     public static void main(String[] args) {
