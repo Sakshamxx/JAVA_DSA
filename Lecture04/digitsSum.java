@@ -1,4 +1,4 @@
-package Lecture4;
+package Lecture04;
 
 public class digitsSum {
     public static void main(String[] args) {

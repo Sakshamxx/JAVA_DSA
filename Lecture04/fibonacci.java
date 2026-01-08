@@ -1,4 +1,4 @@
-package Lecture4;
+package Lecture04;
 
 public class fibonacci {
     public static void main(String[] args) {

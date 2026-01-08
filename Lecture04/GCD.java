@@ -1,4 +1,4 @@
-package Lecture4;
+package Lecture04;
 
 public class GCD {
     public static void main(String[] args) {
