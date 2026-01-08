@@ -1,13 +1,13 @@
-package Lecture3;
+package Lecture03;
 
 import java.util.Scanner;
 
-public class pattern17 {
+public class pattern19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int star = n / 2;
-        int space = 1;
+        int star = n / 2 + 1;
+        int space = -1;
         int row = 1;
         while (row <= n) {
             int i = 1;
@@ -21,6 +21,9 @@ public class pattern17 {
                 j++;
             }
             int k = 1;
+            if (row == n || row == 1) {
+                k = 2;
+            }
             while (k <= star) {
                 System.out.print("* ");
                 k++;

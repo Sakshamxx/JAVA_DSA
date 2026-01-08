@@ -1,31 +1,25 @@
-package Lecture3;
+package Lecture03;
 
 import java.util.Scanner;
 
-public class pattern16 {
+public class pattern13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int row = 1;
-        int star = n;
-        int space = n - 1;
+        int star = 1;
         while (row <= (2 * n) - 1) {
+            // STAR
             int i = 1;
-            while (i <= space) {
-                System.out.print("    ");
+            while (i <= star) {
+                System.out.print("* ");
                 i++;
             }
-            int j = 1;
-            while (j <= star) {
-                System.out.print(" *  ");
-                j++;
-            }
+            // MIRROR
             if (row < n) {
-                star--;
-                space--;
-            } else {
                 star++;
-                space++;
+            } else {
+                star--;
             }
             row++;
             System.out.println();
