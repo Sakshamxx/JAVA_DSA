@@ -1,11 +1,11 @@
-package Lecture2;
+package Lecture02;
 
-public class pattern05 {
+public class pattern04 {
     public static void main(String[] args) {
         int n = 5;
+        int star = 1;
+        int space = n - 1;
         int row = 1;
-        int space = 0;
-        int star = 5;
         while (row <= n) {
             int i = 1;
             while (i <= space) {
@@ -17,9 +17,10 @@ public class pattern05 {
                 System.out.print("* ");
                 j++;
             }
-            star--;
-            space++;
+
             row++;
+            star++;
+            space--;
             System.out.println();
         }
     }

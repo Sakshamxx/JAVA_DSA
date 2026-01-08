@@ -1,14 +1,11 @@
-package Lecture2;
+package Lecture02;
 
-import java.util.Scanner;
-
-public class pattern09 {
+public class pattern06 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int star = 1;
-        int space = n - 1;
+        int n = 5;
         int row = 1;
+        int space = 0;
+        int star = 5;
         while (row <= n) {
             int i = 1;
             while (i <= space) {
@@ -20,12 +17,10 @@ public class pattern09 {
                 System.out.print("* ");
                 j++;
             }
-
+            star--;
+            space += 2;
             row++;
-            star += 2;
-            space--;
             System.out.println();
         }
-        sc.close();
     }
 }

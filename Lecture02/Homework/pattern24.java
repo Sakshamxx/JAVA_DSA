@@ -1,11 +1,14 @@
-package Lecture2;
+package Lecture02.Homework;
 
-public class pattern06 {
+import java.util.Scanner;
+
+public class pattern24 {
     public static void main(String[] args) {
-        int n = 5;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int star = 1;
+        int space = n - 1;
         int row = 1;
-        int space = 0;
-        int star = 5;
         while (row <= n) {
             int i = 1;
             while (i <= space) {
@@ -14,13 +17,15 @@ public class pattern06 {
             }
             int j = 1;
             while (j <= star) {
-                System.out.print("* ");
+                System.out.print(row + " ");
                 j++;
             }
-            star--;
-            space += 2;
+
             row++;
+            star += 2;
+            space--;
             System.out.println();
         }
+        sc.close();
     }
 }

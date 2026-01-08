@@ -1,22 +1,22 @@
-package Lecture2;
+package Lecture02;
 
-import java.util.*;
+import java.util.Scanner;
 
-public class pattern22 {
+public class pattern21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int star = n;
-        int space = -1;
+        int space = (2 * n) - 3;
         int row = 1;
+        int star = 1;
         while (row <= n) {
-            // Star Prep
+            // Star prep
             int i = 1;
             while (i <= star) {
                 System.out.print("* ");
                 i++;
             }
-            // Space prep
+            // Spcae prep
             int j = 1;
             while (j <= space) {
                 System.out.print("  ");
@@ -24,7 +24,7 @@ public class pattern22 {
             }
             // Star prep
             int k = 1;
-            if (row == 1) {
+            if (row == n) {
                 k = 2;
             }
             while (k <= star) {
@@ -32,8 +32,8 @@ public class pattern22 {
                 k++;
             }
             row++;
-            star--;
-            space += 2;
+            star++;
+            space -= 2;
             System.out.println();
         }
         sc.close();

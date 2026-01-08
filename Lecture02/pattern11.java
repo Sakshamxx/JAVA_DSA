@@ -1,8 +1,8 @@
-package Lecture2.Homework;
+package Lecture02;
 
 import java.util.Scanner;
 
-public class pattern24 {
+public class pattern11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -17,7 +17,11 @@ public class pattern24 {
             }
             int j = 1;
             while (j <= star) {
-                System.out.print(row + " ");
+                if (j % 2 == 0) {
+                    System.out.print("  ");
+                } else {
+                    System.out.print("* ");
+                }
                 j++;
             }
 

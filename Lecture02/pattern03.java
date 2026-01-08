@@ -1,4 +1,4 @@
-package Lecture2;
+package Lecture02;
 
 public class pattern03 {
     public static void main(String[] args) {
