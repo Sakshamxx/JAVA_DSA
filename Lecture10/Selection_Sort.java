@@ -2,11 +2,11 @@ package Lecture10;
 
 public class Selection_Sort {
     public static void main(String[] args) {
-        int[] arr = {9,3,4,1,3,0};
+        int[] arr = { 9, 3, 4, 1, 3, 0 };
         Sort(arr);
-        for(int i=0; i<arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
-        } 
+        }
     }
 
     public static void Sort(int[] arr) {
