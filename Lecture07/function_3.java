@@ -10,10 +10,10 @@ public class function_3 {
         System.out.println(Add(a,b));
         System.out.println(val);
     }
-    // Parametrized
+    // Parametrized 
     public static int Add(int a, int b){
         int c = a+b;
-        int val=100; //This is only for local variable
+        // int val=100; //This is only for local variable
         function_3.val+=5; //To Access  Global Variable
         return c - Sub(c,b);
     } 
