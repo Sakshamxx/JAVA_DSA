@@ -8,6 +8,7 @@ public class leetcode_151 {
         System.out.println("With Trim: "+s.trim());
         System.out.println(reverse(s));
         System.out.println(reverse_word(s));
+        sc.close();
     }
     public static String reverse(String s){
         s=s.trim();

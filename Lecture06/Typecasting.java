@@ -13,8 +13,8 @@ public class Typecasting {
         System.out.println(b1);
         byte b2 = (byte) 428;
         System.out.println(b2);
-        int i = 17;
-        long l = 2109319031;
+        // int i = 17;
+        // long l = 2109319031;
         long l1 = 21093190312l; // Changing Literal
         System.out.println(l1);
     }

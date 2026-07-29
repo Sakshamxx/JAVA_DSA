@@ -2,10 +2,10 @@ package Lecture08;
 
 public class arrayDemo {
     public static void main(String[] args) {
-        int a;
+        // int a;
         // int[] arr = null;
         int[] arr = new int[5];
-        int[] other = arr;
+        // int[] other = arr;
         System.out.println(arr);
         // System.out.println(other);
         arr[0]=10;
